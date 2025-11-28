@@ -169,7 +169,7 @@
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#d9d7ceff",
+        "foreground": "#d9d7ceff"
       }
     },
     {
@@ -239,7 +239,7 @@
       "name": "Constants",
       "scope": "constant.numeric, constant.language, support.constant, constant.character, keyword.other.unit ",
       "settings": {
-        "foreground": "#dfbfff",
+        "foreground": "#dfbfff"
       }
     },
     {
@@ -546,64 +546,8 @@
       }
     },
     {
-      "name": "JSON Key - Level 8",
-      "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-      "settings": {
-        "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSON Key - Level 7",
-      "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-      "settings": {
-        "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSON Key - Level 6",
-      "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-      "settings": {
-        "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSON Key - Level 5",
-      "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-      "settings": {
-        "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSON Key - Level 4",
-      "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-      "settings": {
-        "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSON Key - Level 3",
-      "scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-      "settings": {
-        "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSON Key - Level 2",
-      "scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-      "settings": {
-        "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSON Key - Level 1",
-      "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-      "settings": {
-        "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSON Key - Level 0",
-      "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+      "name": "JSON Keys",
+      "scope": ["support.type.property-name.json"],
       "settings": {
         "foreground": "#5CCFE6"
       }
@@ -709,6 +653,8 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    "property": "#5CCFE6",
+    "string": "#BAE67E",
     "parameter.label": "#cccac2",
     "class": "#FFD580",
     "class.builtin": "#edbfff",
