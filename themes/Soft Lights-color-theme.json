@@ -266,7 +266,7 @@
     },
     {
       "name": "Instance, Inherited, Support",
-      "scope": "entity.other.inherited-class, meta.class.inheritance, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter",
+      "scope": "entity.other.inherited-class.python, meta.class.inheritance.python, entity.other.inherited-class, meta.class.inheritance, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter",
       "settings": {
         "foreground": "#edbfff"
       }
@@ -275,7 +275,7 @@
       "name": "Class",
       "scope": "entity.name.type.class, entity.name.class, entity.name.instance, entity.name.type.instance",
       "settings": {
-        "foreground": "#ffd173"
+        "foreground": "#edbfff"
       }
     },
     {
