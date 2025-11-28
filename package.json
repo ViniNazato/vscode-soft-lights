@@ -1,0 +1,21 @@
+{
+  "name": "vn-soft-lights",
+  "displayName": "Soft Lights",
+  "description": "A custom theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Soft Lights",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Soft Lights-color-theme.json"
+      }
+    ]
+  }
+}
