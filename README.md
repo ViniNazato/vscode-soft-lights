@@ -1,10 +1,7 @@
 # Soft Lights — VS Code Theme
 
-**Soft Lights** is a gentle, refined color theme for Visual Studio Code.  
-It is a *minor, tastefully balanced* alteration of the **Field Lights (Ayu Mirage)** theme, designed for users who enjoy a soft, low-contrast environment with warm undertones and comfortable readability.
-
-If you love Ayu Mirage but want something calmer, smoother, and easier on the eyes for long coding sessions—Soft Lights might be for you.
-
+Soft Lights is a gentle, refined color theme for Visual Studio Code.
+It is a minor, tastefully balanced alteration of the Field Lights (Ayu Mirage) theme, created for users who prefer a soft, low-contrast environment with warm undertones and comfortable readability. In addition to subtle palette adjustments, Soft Lights also includes custom styling for Python semantic tokens, providing clearer visual structure while preserving the theme’s calm aesthetic.
 ---
 
 ## ✨ Features
