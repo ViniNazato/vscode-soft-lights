@@ -3,12 +3,23 @@
   "displayName": "Soft Lights",
   "description": "A custom theme",
   "version": "0.0.1",
+  "publisher": "ViniNazato",
   "engines": {
     "vscode": "^1.106.1"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "minimalistic",
+    "python"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViniNazato/vscode-soft-lights.git"
+  },
   "contributes": {
     "themes": [
       {
