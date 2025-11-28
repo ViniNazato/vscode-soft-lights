@@ -653,8 +653,6 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "property": "#5CCFE6",
-    "string": "#BAE67E",
     "parameter.label": "#cccac2",
     "class": "#FFD580",
     "class.builtin": "#edbfff",
