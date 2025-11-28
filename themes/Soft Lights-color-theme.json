@@ -25,7 +25,7 @@
     "editor.findRangeHighlightBackground": "#FFCC6633",
     "editor.foreground": "#D9D7CE",
     "editor.lineHighlightBackground": "#272c36",
-    "editor.rangeHighlightBackground": "",
+    "editor.rangeHighlightBackground": "#272c36",
     "editor.selectionBackground": "#343F4C",
     "editor.wordHighlightBackground": "#FFCC6633",
     "editor.wordHighlightStrongBackground": "#FFCC6633",
@@ -654,7 +654,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "parameter.label": "#cccac2",
-    "class": "#FFD580",
+    // "class": "#FFD580",
     "class.builtin": "#edbfff",
     "class.typeHint": "#77ddff",
     "class.typeHint.builtin": "#77ddff",
