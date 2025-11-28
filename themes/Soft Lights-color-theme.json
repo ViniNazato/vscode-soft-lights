@@ -32,7 +32,6 @@
     "editorBracketMatch.border": "#3D4752",
     "editorCursor.foreground": "#FFCC66",
     "editorError.foreground": "#FF3333",
-    "editorGroup.background": "#272D38",
     "editorGroup.border": "#343D4A",
     "editorGroupHeader.noTabsBackground": "#262b35",
     "editorGroupHeader.tabsBackground": "#191c24",
@@ -42,7 +41,7 @@
     "editorGutter.modifiedBackground": "#5CCFE6",
     "editorHoverWidget.background": "#272D38",
     "editorHoverWidget.border": "#343D4A",
-    "editorIndentGuide.background": "#2B333B",
+    "editorIndentGuide.background1": "#2B333B",
     "editorLineNumber.foreground": "#3D4752",
     "editorLink.activeForeground": "#FFCC66",
     "editorMarkerNavigation.background": "#272D38",
@@ -128,6 +127,7 @@
     "statusBarItem.hoverBackground": "#303540",
     "statusBarItem.prominentBackground": "#343D4A",
     "statusBarItem.prominentHoverBackground": "#303540",
+    "tab.activeBorder": "#FFCC66",
     "tab.activeBackground": "#262b35",
     "tab.activeForeground": "#FFCC66",
     "tab.border": "#191c24",
@@ -170,7 +170,6 @@
     {
       "settings": {
         "foreground": "#d9d7ceff",
-        "background": "#262b35ff"
       }
     },
     {
@@ -237,8 +236,15 @@
       }
     },
     {
-      "name": "Constant",
-      "scope": "constant, constant.numeric, constant.language, support.constant, constant.character, keyword.other.unit ,variable.other.constant.caps, variable.other.constant",
+      "name": "Constants",
+      "scope": "constant.numeric, constant.language, support.constant, constant.character, keyword.other.unit ",
+      "settings": {
+        "foreground": "#dfbfff",
+      }
+    },
+    {
+      "name": "Constant Variable Caps",
+      "scope": "variable.other.constant.caps, variable.other.constant",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#d98a4f"
@@ -706,12 +712,12 @@
     "parameter.label": "#cccac2",
     "class": "#FFD580",
     "class.builtin": "#edbfff",
-    "class.typeHint": "#8fd9ff",
-    "class.typeHint.builtin": "#8fd9ff",
-    "variable.typeHint": "#8fd9ff",
-    "parameter.typeHint": "#8fd9ff",
-    "property.typeHint": "#8fd9ff",
-    "module.typeHint": "#8fd9ff",
-    "function.typeHint": "#8fd9ff"
+    "class.typeHint": "#77ddff",
+    "class.typeHint.builtin": "#77ddff",
+    "variable.typeHint": "#77ddff",
+    "parameter.typeHint": "#77ddff",
+    "property.typeHint": "#77ddff",
+    "module.typeHint": "#77ddff",
+    "function.typeHint": "#77ddff"
   }
 }
