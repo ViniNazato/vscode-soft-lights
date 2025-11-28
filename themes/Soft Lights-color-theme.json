@@ -264,6 +264,27 @@
         "foreground": "#BAE67E"
       }
     },
+    // {
+    //   "name": "Meta Types",
+    //   "scope":"meta.indexed-name, meta.item-access, meta.function",
+    //   "settings": {
+    //     "foreground": "#77ddff",
+    //   }
+    // },
+    {
+      "name": "Meta Attributes",
+      "scope":"meta.attribute",
+      "settings": {
+        "foreground": "#D9D7CE",
+      }
+    },
+    {
+      "name": "Support Type",
+      "scope":"support.type",
+      "settings": {
+        "foreground": "#edbfff",
+      }
+    },
     {
       "name": "Instance, Inherited, Support",
       "scope": "entity.other.inherited-class.python, meta.class.inheritance.python, entity.other.inherited-class, meta.class.inheritance, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter",
@@ -653,8 +674,6 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "parameter.label": "#cccac2",
-    // "class": "#FFD580",
     "class.builtin": "#edbfff",
     "class.typeHint": "#77ddff",
     "class.typeHint.builtin": "#77ddff",
