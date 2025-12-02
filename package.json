@@ -2,7 +2,7 @@
   "name": "vn-soft-lights",
   "displayName": "Soft Lights",
   "description": "Soft Lights is based on the excellent **Field Lights** theme, which itself is inspired by **Ayu Mirage**. All credit for the original palette and design philosophy goes to their respective authors.",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "publisher": "ViniNazato",
   "engines": {
     "vscode": "^1.106.1"
